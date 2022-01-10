@@ -8,19 +8,13 @@ body {
     background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/07/Scary_Wallpaper_050.jpg");
 
 }
-#inputs{
+.inputs{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center; 
     padding: 25px 0; 
     font-size: 30px;
-    
+    flex-wrap: wrap;
 }
-#container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 10px;
-  }
+
 
